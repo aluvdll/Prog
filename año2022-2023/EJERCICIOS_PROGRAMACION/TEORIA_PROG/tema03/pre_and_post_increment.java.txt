@@ -1,0 +1,51 @@
+package pre_and_post_increment_diferences;
+
+public class pre_and_post_increment {
+	public static void main(String[] args) {
+		int x = 0;
+		System.out.println("Valor inicial de la variable x: " + x);
+		
+		x = x+1;
+		System.out.println("Valor de la variable x tras sumarle 1: " + x);
+
+		x++;
+		System.out.println("Valor de la variable x tras aplicarle el post incremento: " + x);
+		
+		++x;
+		System.out.println("Valor de la variable x tras aplicarle el pre incremento: " + x);
+
+		int y = x++;
+		System.out.println("Valor de la variable y tras igualarlo a x++: " + y);
+		System.out.println("Valor de la variable x tras aplicarle el post incremento en la orden anterior: " + x);
+
+		int z = ++x;
+		System.out.println("Valor de la variable z tras igualarlo a x++: " + z);
+		System.out.println("Valor de la variable x tras aplicarle el post incremento en la orden anterior: " + x);
+
+		int i = 0;
+		i = i++;
+		System.out.println("i = i++ " + i);
+		
+		//i = ++i se puede dividir en las siguientes líneas de código:
+		int temp = i;
+		i=i+1;
+		i = temp;
+		System.out.println("El valor de i es tras la división en funciones más simple es: " + i);
+
+		//x++:  1. Asignamos el valor de x a una variable temporal
+		//		2. Incrementamos el valor de x 
+		//++x:  2. Incrementamos el valor de x 
+		//		1. Asignamos el valor de x a una variable temporal
+		
+		i = 3;
+		System.out.println("La variable i vale otra vez 3: " + i);
+		int a = i++; // a = 3, i = 4
+		System.out.println("a: " + a);
+		System.out.println("i: " + i);
+		
+		int b = ++a; // b = 4, a = 4
+		System.out.println("b: " + b);
+		System.out.println("a: " + a);
+
+	}
+}
