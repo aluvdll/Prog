@@ -1,0 +1,16 @@
+en este ejercicio realizamos
+una clase llamada Dog
+con el atributo del tipo String name.
+ejecutamos el programa con el metodo main
+y creamos el objeto Dog asignandole la variable dog1,
+seguidamente al objeto dog lo declaramos con su metodo bark(), y observaremos que en pantalla realizará el bark(), pero como a dog1 no tiene asignado ningún valor en pantalla saldrá null; y el metodo bark();
+seguidamente ya le damos valor al atributo de la clase name asignandole al String el valor de Bart,
+tras realizar esto nos entonctramos con una declaración para crear un array de objeto.
+por lo tanto se declara la varible de la clase Dog asignandole el nombre de myDogs a la array y diciendole que la array tendra 3 objetos con la signación con [3];
+seguidamente inicializamos la array myDogs[0], y my Dogs[1] con sus correspondientes declaraciones para que sean un nuevo objeto, dentro de la array.
+por ultimo asignamos el valor [2] es decir el 3 elemento de la array con el valor de la variable del objeto dog1, el cual contiene un string del atributo name que es "Bart" por lo que ahora el objeto de la array nº3 [2] tiene como valor el mismo que el objeto clase.
+tras esto accedemos a los ojetod de la array [0].name para asignarle el nombre de "Fred" y al [1].name para signarle el valor de "Marge".
+seguidamente en el programa veremos que en pantalla imprimiremos cual es el nombre de myDogs[2] qu ya hemos explicado antes que tiene el valor de la variable del objeto dog1,
+y despues recorreremos con un while para que llame a todos los objetos del array (recorrer arrays) asignandoles el metodo bark().
+para eso utilizaremos el metodo .length para que el while sepa cual es su fin y dentro del bucle le insertaremos en incrementador con +1 para que la variable int x valla incrementando.
+en este ejercicio tambien se observa que hay dos metodos pero declarados pero vacios y sin inicializar.
